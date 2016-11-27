@@ -22,11 +22,22 @@
     Patient Weight(kilograms):<br>
     <input type="number" name="pw"><br>
     Patient Age:<br>
-    <input type="number" name="page"><br>
-    <input type="submit">
+    <input type="number" name="pa"><br>
     <input type="reset">
 </form>
+<button onclick="initiate()">Submit</button>
 <br>
+<img id="Image1" hidden ></img>
+<img id="Image2" hidden></img>
+<canvas id="Image1Can" width="240" height="297" style="border:1px solid #d3d3d3;"></canvas>
+<canvas id="Image2Can" width="240" height="297"style="border:1px solid #d3d3d3;"></canvas>
+
+<br>
+<!-----text file contents-->
+<p hidden id="amfiles"></p>
+<p hidden id="affiles"></p>
+<p hidden id="pmfiles"></p>
+<p hidden id="pffiles"></p>
 </body>
 <script src="jquery-3.1.1.js"></script>
 <script src="testscript.js"></script>

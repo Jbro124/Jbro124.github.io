@@ -7,10 +7,16 @@ $('#amfiles').load("AMfiles.txt");
 $('#affiles').load("AFfiles.txt");
 $('#pmfiles').load("PMfiles.txt");
 $('#pffiles').load("PFfiles.txt");
+var im1switch=0;
+var im2switch=0;
 var image1x=0;
 var image1y=0;
+var image1x2=0;
+var image1y2=0;
 var image2x=0;
 var image2y=0;
+var image2x2=0;
+var image2y2=0;
 var phantomnames;
 //----------get coords from functions and fill out table-----------------
 function confirmCoords(){
@@ -117,19 +123,41 @@ var can2= document.getElementById('Image2Can');
 can1.addEventListener('click',function(e){
     var ctx=can1.getContext('2d');
     //this if statement erases the point previously drawn
-    if (image1x!=0 || image1y!=0){
+    if ((image1x!=0 || image1y!=0)&&im1switch==0){
         var curimage=document.getElementById('Image1');
         ctx.drawImage(curimage,0,0);
     }
     ctx.fillStyle = "#000000";
-    image1x=event.pageX-can1.offsetLeft;
-    image1y=event.pageY-can1.offsetTop;
-    ctx.beginPath();
-    ctx.arc(image1x,image1y,2,0,2*Math.PI);
-    ctx.fill();
-    console.log('image1');
-    console.log(image1x);
-    console.log(image1y);
+    if (im1switch==0){
+        image1x=event.pageX-can1.offsetLeft;
+        image1y=event.pageY-can1.offsetTop;
+        image1x2=0;
+        image1y2=0;
+        im1switch=1;
+        ctx.beginPath();
+        ctx.arc(image1x,image1y,2,0,2*Math.PI);
+        ctx.fill();
+        console.log('image1.1');
+        console.log(image1x);
+        console.log(image1y);
+    }
+    else if (im1switch==1){
+        image1x2=event.pageX-can1.offsetLeft;
+        image1y2=event.pageY-can1.offsetTop;
+        im1switch=0;
+        ctx.beginPath();
+        ctx.arc(image1x2,image1y2,2,0,2*Math.PI);
+        ctx.fill();
+        ctx.strokeRect(image1x,image1y,(image1x2-image1x),(image1y2-image1y));
+        console.log('image1.2');
+        console.log(image1x2);
+        console.log(image1y2);
+    }
+    //image1x=event.pageX-can1.offsetLeft;
+    //image1y=event.pageY-can1.offsetTop;
+    //ctx.beginPath();
+    //ctx.arc(image1x,image1y,2,0,2*Math.PI);
+    //ctx.fill();
 });
 can2.addEventListener('click',function(e){
     var ctx=can2.getContext('2d');
@@ -139,14 +167,31 @@ can2.addEventListener('click',function(e){
         ctx.drawImage(curimage,0,0);
     }
     ctx.fillStyle = "#000000";
-    image2x=event.pageX-can2.offsetLeft;
-    image2y=event.pageY-can2.offsetTop;
-    ctx.beginPath();
-    ctx.arc(image2x,image2y,2,0,2*Math.PI);
-    ctx.fill();
-    console.log('image2');
-    console.log(image2x);
-    console.log(image2y);
+    if (im2switch==0){
+        image2x=event.pageX-can2.offsetLeft;
+        image2y=event.pageY-can2.offsetTop;
+        image2x2=0;
+        image2y2=0;
+        im2switch=1;
+        ctx.beginPath();
+        ctx.arc(image2x,image2y,2,0,2*Math.PI);
+        ctx.fill();
+        console.log('image2.1');
+        console.log(image2x);
+        console.log(image2y);
+    }
+    else if (im2switch==1){
+        image2x2=event.pageX-can2.offsetLeft;
+        image2y2=event.pageY-can2.offsetTop;
+        im2switch=0;
+        ctx.beginPath();
+        ctx.arc(image2x2,image2y2,2,0,2*Math.PI);
+        ctx.fill();
+        ctx.strokeRect(image2x,image2y,(image2x2-image2x),(image2y2-image2y));
+        console.log('image2.2');
+        console.log(image2x2);
+        console.log(image2y2);
+    }
 });
 //-------------check form function-------------------------------
 function validateForm(n1,n2,n3,n4,n5,n6,n7,n8) {

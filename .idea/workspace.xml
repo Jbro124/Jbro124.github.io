@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d889efc8-aa78-47a7-87a9-b2ce715791f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PlaneMethod.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PointMethod.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PointMethod.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AFfiles.txt" afterPath="$PROJECT_DIR$/AFfiles.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AMfiles.txt" afterPath="$PROJECT_DIR$/AMfiles.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PFfiles.txt" afterPath="$PROJECT_DIR$/PFfiles.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PMfiles.txt" afterPath="$PROJECT_DIR$/PMfiles.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PlaneMethod.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneMethod.html" afterPath="$PROJECT_DIR$/PlaneMethod.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PointMethod.html" afterPath="$PROJECT_DIR$/PointMethod.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PointMethod.js" afterPath="$PROJECT_DIR$/PointMethod.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery-3.1.1.js" afterPath="$PROJECT_DIR$/jquery-3.1.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testscript.js" afterPath="$PROJECT_DIR$/testscript.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,14 +28,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <marker date="1483842655000" expanded="true" signature="799:813" ph="..." />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,8 +41,8 @@
       <file leaf-file-name="PointMethod.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PointMethod.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="77">
+              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#canvas#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#1;n#canvas#0;n#html#0;n#!!top" expanded="true" />
@@ -64,18 +57,18 @@
       <file leaf-file-name="PlaneMethod.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PlaneMethod.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="270">
+              <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testscript.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testscript.js">
+      <file leaf-file-name="PlaneMethod.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PlaneMethod.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="338" selection-end-column="0" />
+            <state relative-caret-position="116">
+              <caret line="347" column="71" lean-forward="true" selection-start-line="347" selection-start-column="71" selection-end-line="347" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -84,8 +77,8 @@
       <file leaf-file-name="PointMethod.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PointMethod.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="338" column="0" lean-forward="false" selection-start-line="338" selection-start-column="0" selection-end-line="338" selection-end-column="0" />
+            <state relative-caret-position="194">
+              <caret line="111" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="350" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,6 +94,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>image1x</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -109,10 +107,11 @@
       <list>
         <option value="$PROJECT_DIR$/points.html" />
         <option value="$PROJECT_DIR$/plane.html" />
-        <option value="$PROJECT_DIR$/PointMethod.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/PointMethod.html" />
         <option value="$PROJECT_DIR$/PlaneMethod.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/PointMethod.js" />
+        <option value="$PROJECT_DIR$/PlaneMethod.js" />
       </list>
     </option>
   </component>
@@ -235,12 +234,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1483840028611</updated>
-      <workItem from="1483840031369" duration="2610000" />
+      <workItem from="1483840031369" duration="8426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2610000" />
+    <option name="totallyTimeSpent" value="8426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="495" y="22" width="1162" height="1023" extended-state="0" />
@@ -248,6 +247,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24956971" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -270,6 +270,9 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -291,14 +294,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PointMethod.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="338" column="0" lean-forward="false" selection-start-line="338" selection-start-column="0" selection-end-line="338" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testscript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -307,10 +302,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PointMethod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="111" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="350" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PointMethod.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="77">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#canvas#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#1;n#canvas#0;n#html#0;n#!!top" expanded="true" />
@@ -323,19 +334,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PlaneMethod.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="270">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/PlaneMethod.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <marker date="1483842655000" expanded="true" signature="799:813" ph="..." />
-          </folding>
+        <state relative-caret-position="116">
+          <caret line="347" column="71" lean-forward="true" selection-start-line="347" selection-start-column="71" selection-end-line="347" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>

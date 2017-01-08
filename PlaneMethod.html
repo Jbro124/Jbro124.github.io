@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phantom Viewer</title>
+</head>
+<h1>UF Phantom Viewer</h1>
+<h2>Instructions:</h2>
+<h3> 1)Input patient information and click "Submit" <br>2) Click on images to the isocenter of the selected exposure, when
+    satisfied click "Confirm"<br>3)Repeat for as many patients/procedures as needed <br>4)Enter desired file name (with no extensions)<br>5)Click "Save Results" </h3>
+<h4><mark><b>Note:</b> All information is stored locally on your computer, nothing is stored on the website</mark></h4>
+<br>
+<form action="index.html">
+    <input type="submit" value="Main Menu" />
+</form>
+<br>
+<form name="reqInfo" onsubmit="initiate()">
+    Patient ID:<br>
+    <input type="number" name="pid"><br>
+    Image Number:<br>
+    <input type="number" name="imid"><br>
+    Procedure Date: <br>
+    <input type="date" name="prodate"><br>
+    Procedure Description(No Commas): <br>
+    <input type="text" name="proname"><br>
+    Patient Gender:<br>
+    <input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    Patient Height(centimeters):<br>
+    <input type="number" name="ph"><br>
+    Patient Weight(kilograms):<br>
+    <input type="number" name="pw"><br>
+    Patient Age:<br>
+    <input type="number" name="pa"><br>
+    <input type="reset">
+</form>
+<button onclick="initiate()">Submit</button>
+<br>
+<canvas style="visibility: hidden" id="Image1Can" class="Image1Can" width="240" height="297" style="border:1px solid #d3d3d3;"></canvas>
+<canvas style="visibility: hidden" id="Image2Can" class="Image2Can" width="240" height="297"style="border:1px solid #d3d3d3;"></canvas>
+<br>
+<button id="confirmbutt" style="visibility: hidden" onclick="confirmCoords()">Confirm</button>
+<br>
+<textarea readonly style="visibility: hidden" id="inputTextToSave" cols="80" rows="25">PatId,ImNum,Pdate,Pdesc,Gender,PHeight,PWeight,PAge,MatchedPhantom,VoxelX,VoxelY,VoxelZ</textarea>
+<br>
+<input id="inputFileNameToSaveAs" style="visibility: hidden" ></input>
+<button id="savebutt" onclick="saveTextAsFile()" style="visibility: hidden">Save Results</button>
+
+<br>
+<img id="Image1" class="Image1" hidden ></img>
+<img id="Image2" class="Image2"hidden></img>
+<br>
+<br>
+<!-----text file contents-->
+<p hidden id="amfiles"></p>
+<p hidden id="affiles"></p>
+<p hidden id="pmfiles"></p>
+<p hidden id="pffiles"></p>
+</body>
+<script src="jquery-3.1.1.js"></script>
+<script src="testscript.js"></script>
+</html>

@@ -315,7 +315,7 @@ function initiate(){
             //alert('ped female');
             var phantnames=phantommatcher(pheight,pweight,PFfiles,'pf');
         }else if(pgend=='male' && page>=18){
-           // alert('adult male');
+            // alert('adult male');
             var phantnames=phantommatcher(pheight,pweight,AMfiles,'am');
         }else if(pgend=='female' && page>=18){
             //alert('adult female');

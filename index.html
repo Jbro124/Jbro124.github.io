@@ -4,40 +4,22 @@
     <meta charset="UTF-8">
     <title>Phantom Viewer</title>
 </head>
-<body>
-<h1>UF Phantom Viewer</h1>
+<h1>UF Phantom Viewer Main Menu</h1>
+<h2>Choose either point method or field size method.</h2>
+<h3> The point method assumes clicked point in isocenter of image. Note the fieldd size unless specified is square
+    <br>
+    The field size method allows the user to specify a field size based upon the image
+</h3>
+<h4><mark><b>Note:</b> All information is stored locally on your computer, nothing is stored on the website</mark></h4>
 <br>
-<form name="reqInfo" onsubmit="initiate()">
-    Patient ID:<br>
-    <input type="number" name="pid"><br>
-    Procedure Date: <br>
-    <input type="date" name="prodate"><br>
-    Procedure Description: <br>
-    <input type="text" name="proname"><br>
-    Patient Gender:<br>
-    <input type="radio" name="gender" value="male" checked> Male<br>
-    <input type="radio" name="gender" value="female"> Female<br>
-    Patient Height(centimeters):<br>
-    <input type="number" name="ph"><br>
-    Patient Weight(kilograms):<br>
-    <input type="number" name="pw"><br>
-    Patient Age:<br>
-    <input type="number" name="pa"><br>
-    <input type="reset">
+<form action="PointMethod.html">
+    <input type="submit" value="Point Method" />
 </form>
-<button onclick="initiate()">Submit</button>
-<br>
-<img id="Image1" hidden ></img>
-<img id="Image2" hidden></img>
-<canvas id="Image1Can" width="240" height="297" style="border:1px solid #d3d3d3;"></canvas>
-<canvas id="Image2Can" width="240" height="297"style="border:1px solid #d3d3d3;"></canvas>
+<form action="PlaneMethod.html">
+    <input type="submit" value="Plane Method" />
+</form>
 
-<br>
-<!-----text file contents-->
-<p hidden id="amfiles"></p>
-<p hidden id="affiles"></p>
-<p hidden id="pmfiles"></p>
-<p hidden id="pffiles"></p>
+
 </body>
 <script src="jquery-3.1.1.js"></script>
 <script src="testscript.js"></script>
